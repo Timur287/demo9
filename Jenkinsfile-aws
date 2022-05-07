@@ -20,6 +20,6 @@ pipeline {
                 sh './gradlew docker'
             }
         }
-     
+
     }
 }
