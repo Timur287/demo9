@@ -12,6 +12,7 @@ import javax.validation.Valid;
 @RestController
 public class ThemeParkRideController {
     private final ThemeParkRideRepository themeParkRideRepository;
+    //Cat cat = new Cat();
 
     public ThemeParkRideController(ThemeParkRideRepository themeParkRideRepository) {
         this.themeParkRideRepository = themeParkRideRepository;
