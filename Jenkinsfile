@@ -20,10 +20,5 @@ pipeline {
                 sh './gradlew docker'
             }
         }
-        stage('Push Docker image') {
-            steps {
-                 echo 'hello'
-            }
-        }
     }
 }
